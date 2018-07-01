@@ -1,0 +1,25 @@
+public class ordenadorDeEnteros
+{
+	puclic lista<int> ordenar(lista <int> listaDesordenada);
+	{
+		WHILE(hay elementos en la lista desordenada)
+		{
+		recorroLaLista
+		encontrarElMenor
+		moverAlMenorDeLaListaDesordenadaAlaOrdenada
+		var listaOrdenada=new list<int>();
+		var imenor=0;
+		for(i=0;i<listaDesordenada.count();i++)
+			{
+				if(listaDesordenada[i] < listaDesordenada[imenor])
+				{
+					imenor=i;
+				}
+				listaOrdenada.add(listaDesordenada[imenor]);
+				lisaDesordenada.remove(imenor);
+			}
+		}
+		return lista ordenada;
+	}
+}
+
